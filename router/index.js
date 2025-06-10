@@ -6,7 +6,7 @@ import Checkout from '../pages/Checkout.vue'
 import OrderSuccess from '../pages/OrderSuccess.vue'
 
 const routes = [
-  { path: '/javascript', component: Home },
+  { path: '/', component: Home },
   { path: '/menu', component: Menu },
   { path: '/cart', component: Cart },
   { path: '/checkout', component: Checkout },
